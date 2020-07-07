@@ -1,0 +1,41 @@
+.jumbotron{
+    background-image: url('jumbtron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    border-radius: 0;
+    background-blend-mode: darken;
+    margin: 0;
+}
+.container-fluid {
+    width: 100%;
+    padding-right:0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+#movies-container{
+    min-height: 305px;
+    width: 80%;
+}
+.well{
+    margin-bottom: 100px;
+    background-color: #343a40;
+}
+#movies .well {
+    height: 360px;
+}
+#movies .well img{
+    height: 260px;
+}
+
+#movie-title{
+    padding:0 15px;
+}
+
+@media (max-width: 576px){
+    .mx-sm-aut {
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+}

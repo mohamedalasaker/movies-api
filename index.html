@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>movies api</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mx-sm-aut mx-md-auto mx-lg-auto h1" style="font-size:30px;">moviesApp</span>
+    </nav>
+
+
+    <div class="container-fluid">
+
+        <div class="jumbotron text-white">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center">search for your movie</h1>
+                </div>
+                <div class="col-8 offset-2">
+                    <div class="form-group">
+                        <input type="text" class="form-control" style="opacity: 0.4;" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div id="movies-container" class="mx-auto">
+            <h1 class="text-center">there is no movie with that name.</h1>
+            <div class="row" id="movies">
+            </div>    
+        </div>
+    </div>
+
+
+
+
+    <!-- jquery and bootstrap files -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        
+    <!-- axois -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+    <!-- main app js file -->
+    <script src='main.js'></script>
+</body>
+</html>
