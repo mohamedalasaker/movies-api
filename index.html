@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark">
-        <span class="navbar-brand mx-sm-aut mx-md-auto mx-lg-auto h1" style="font-size:30px;">moviesApp</span>
+        <span class="navbar-brand mx-sm-aut mx-md-auto mx-lg-auto h1" style="font-size:30px;">MoviesApp</span>
     </nav>
 
 
@@ -19,7 +19,7 @@
         <div class="jumbotron text-white">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="text-center">search for your movie</h1>
+                    <h1 class="text-center">Search for your movie</h1>
                 </div>
                 <div class="col-8 offset-2">
                     <div class="form-group">
@@ -30,9 +30,9 @@
         </div>
     </div>
 
-    <div class="container-fluid mt-5">
+    <div class="container-fluid" id="title-container">
+        <h1 style="display: none; background-color: #343a40; margin: 0; padding: 0; border:none" class="text-white text-center">There is no movie with that name.</h1>
         <div id="movies-container" class="mx-auto">
-            <h1 class="text-center">there is no movie with that name.</h1>
             <div class="row" id="movies">
             </div>    
         </div>

@@ -15,8 +15,11 @@
     margin-left: auto;
 }
 #movies-container{
-    min-height: 305px;
-    width: 80%;
+    min-height: 405px;
+    width: 100%;
+    background-color: #343a40;
+    padding-top: 100px;
+
 }
 .well{
     margin-bottom: 100px;
@@ -27,15 +30,20 @@
 }
 #movies .well img{
     height: 260px;
+    /* object-fit: fill; */
+    width: 90%;
 }
 
 #movie-title{
-    padding:0 15px;
+    padding:20px 15px;
 }
 
 @media (max-width: 576px){
     .mx-sm-aut {
         margin-left: auto!important;
         margin-right: auto!important;
+    }
+    #single-movie-img{
+        height: 300px;
     }
 }
